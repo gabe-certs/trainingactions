@@ -39,7 +39,7 @@ jobs:
       - name: step two
         run: whoami
   
-  job4:
+  depends:
     needs: [job1, job2, job3]
     name: second job
     runs-on: windows-latest
