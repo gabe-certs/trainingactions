@@ -1,4 +1,4 @@
-from datetime importante date
+from datetime import date
 
 start = date(2020, 1, 1)
 today = date.today()
